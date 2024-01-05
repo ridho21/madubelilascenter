@@ -94,10 +94,12 @@
 
 /* MBC */
 
-/* .product-price{
-  flex: 0 0 auto;
-  width: ;
-} */
+.product-btn{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #f9c901;
+  border-radius: 10px;
+}
 
 /* .product-price{
   padding:0.5rem !important;
