@@ -101,6 +101,27 @@
   border-radius: 10px;
 }
 
+.sertif-btn{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 20rem;
+}
+
+.text-desc-1{
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.text-desc-2{
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 /* .product-price{
   padding:0.5rem !important;
   background-color: green;
@@ -140,6 +161,13 @@ body, html{
 .price-field{
   margin-top:4rem;
 
+}
+
+.img-center{
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 2rem;
 }
 /* MBC */
 
@@ -218,6 +246,10 @@ h6, .h6 {
 }
 
 p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style:normal;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -5838,6 +5870,7 @@ textarea.form-control-lg {
 }
 
 .carousel {
+  margin-top: 3rem;
   position: relative;
 }
 
@@ -10891,7 +10924,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -10901,7 +10934,7 @@ p {
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
+  font-style:italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
@@ -11316,7 +11349,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/honey.jpg");
+  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
