@@ -493,7 +493,11 @@
         <h2 class="section-heading">Hasil Uji Lab</h2>
         <div class="row py-5">
           <div class="col-md-6">
-            <div id="carousel-lab" class="carousel slide" data-bs-ride="carousel">
+            <div
+              id="carousel-lab"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
@@ -974,13 +978,34 @@
           </div>
           <!-- Submit Button-->
           <div class="text-center">
-            <button
+            <script>
+              function linkWA() {
+                const name = document.getElementById("name").value;
+                const email = document.getElementById("email").value;
+                const phone = document.getElementById("phone").value;
+                const message = document.getElementById("message").value;
+                const fullMsg =
+                "Hallo, nama saya " +
+                name +
+                ", " +
+                message +
+                ". %0AEmail: " +
+                email +
+                "%0ANomor HP: " +
+                phone;
+                location.href = "https://wa.me/6281372919506?text="+fullMsg;
+              }
+            </script>
+            <a onclick="linkWA()" class="btn btn-primary btn-xl text-uppercase"
+              >kirim pesan</a
+            >
+            <!-- <button
               class="btn btn-primary btn-xl text-uppercase disabled"
               id="submitButton"
               type="submit"
             >
               Kirim Pesan
-            </button>
+            </button> -->
           </div>
         </form>
       </div>
@@ -1043,7 +1068,11 @@
                   <!-- <p class="item-intro text-muted">
                     Lorem ipsum dolor sit amet consectetur.
                   </p> -->
-                  <div id="carouselsertif" class="carousel slide" data-bs-ride="carousel">
+                  <div
+                    id="carouselsertif"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img
