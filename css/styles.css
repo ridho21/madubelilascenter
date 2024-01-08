@@ -151,10 +151,16 @@ body, html{
   height: 100%;
 }
 
-.icon-size{
+.icon-wa{
   margin-top: 5px;
   width: 35px;
   height: 35px;
+}
+
+.icon-shp{
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
 }
 
 .sertifimg{
@@ -5887,7 +5893,8 @@ textarea.form-control-lg {
 }
 
 .carousel {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   position: relative;
 }
 
