@@ -96,6 +96,19 @@
 
 /* MBC */
 
+.mbc-banner{
+  position: absolute; 
+  width: 25%; 
+  height: 15%;
+  margin-top: 4%
+}
+
+.halal-banner{
+  position: absolute; 
+  width: 25%; 
+  height: 20%;
+}
+
 .font-navbar{
   font-family: 'Mulish', sans-serif;
 }
