@@ -214,6 +214,21 @@ body, html{
   max-height: 100%;
   margin-bottom: 2rem;
 }
+
+.bg-mbc-1{
+  background-image: url(../assets/img/bg.png);
+  background-repeat: no-repeat;
+  /* background-size: 140%; */
+  background-position: left bottom;
+  /* border-radius: 15px; */
+}
+
+.bg-mbc-2{
+  background-image: url(../assets/img/bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  /* border-radius: 15px; */
+}
 /* MBC */
 
 body {
@@ -3886,6 +3901,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,

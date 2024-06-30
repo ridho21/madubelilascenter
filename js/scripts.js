@@ -9,16 +9,29 @@
 
 //Animation
 
+//Hide on Scrolling
+let prevScrollpos = window.pageYOffset;
+
+window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").classList.remove("hide");
+    } else {
+        document.getElementById("navbar").classList.add("hide");
+    }
+    prevScrollpos = currentScrollPos;
+}
+
 
 // Smooth Scrolling
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  var disclaimer =  document.querySelector("img[alt='www.000webhost.com']");
-   if(disclaimer){
-       disclaimer.remove();
-   }  
- });
+    var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+    if (disclaimer) {
+        disclaimer.remove();
+    }
+});
 
 window.addEventListener('DOMContentLoaded', event => {
 
