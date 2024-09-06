@@ -12,15 +12,15 @@
 //Hide on Scrolling
 let prevScrollpos = window.pageYOffset;
 
-window.onscroll = function () {
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").classList.remove("hide");
-    } else {
-        document.getElementById("navbar").classList.add("hide");
-    }
-    prevScrollpos = currentScrollPos;
-}
+// window.onscroll = function () {
+//     let currentScrollPos = window.pageYOffset;
+//     if (prevScrollpos > currentScrollPos) {
+//         document.getElementById("navbar").classList.remove("hide");
+//     } else {
+//         document.getElementById("navbar").classList.add("hide");
+//     }
+//     prevScrollpos = currentScrollPos;
+// }
 
 
 // Smooth Scrolling
